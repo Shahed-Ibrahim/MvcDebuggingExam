@@ -25,7 +25,7 @@ namespace MvcDebuggingExam.Controllers
             {
                 return NotFound();
             }
-            return View(product);
+            return View("Details", model);
         }
 
         
